@@ -1,0 +1,25 @@
+
+
+#teste {
+    height: 80px;
+    width: 80px;
+    border: 5px red solid;
+    border-radius: 80px;
+    text-align: center;
+    line-height: 90px;
+    margin: auto;
+}
+
+.lados {
+    border: solid black 1px;
+}
+
+#esquerda {
+    border: solid black 1px;
+    display: inline-block;
+}
+
+#direita {
+    border: solid black 1px;
+    display: inline-block;
+}
