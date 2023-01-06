@@ -5,19 +5,9 @@ direita = document.querySelector("#direita");
 
 function add(){
     newNode = defaultNode.cloneNode();
-    newNode.innerHTML = 20;
-    esquerda.appendChild(newNode);
-
-    newNode = defaultNode.cloneNode();
-    newNode.innerHTML = 30;
-    direita.appendChild(newNode);
-}
-
-function add(){
-    newNode = defaultNode.cloneNode();
     newNode.innerHTML = input.value;
 
-    if(input.value >= defaultNode.value){
+    if(+input.value >= +defaultNode.innerHTML){
         direita.appendChild(newNode);
     }else{
         esquerda.appendChild(newNode);
@@ -27,14 +17,6 @@ function add(){
 
 
 
-
-/*
-function add(){
-    newNode = defaultNode.cloneNode();
-    newNode.innerHTML = 10;
-    defaultNode.appendChild(newNode);
-}
-*/
 
 /*
 var styleArray = {"height": "80px",
