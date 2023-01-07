@@ -1,18 +1,6 @@
-defaultNode = document.querySelector("#teste");
-input = document.querySelector("#input")
-esquerda = document.querySelector("#esquerda");
-direita = document.querySelector("#direita");
+simpleSet = document.querySelector(".simpleSet");
 
-function add(){
-    newNode = defaultNode.cloneNode();
-    newNode.innerHTML = input.value;
 
-    if(+input.value >= +defaultNode.innerHTML){
-        direita.appendChild(newNode);
-    }else{
-        esquerda.appendChild(newNode);
-    }
-}
 
 
 
